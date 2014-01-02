@@ -2,7 +2,6 @@
   "name": "Kata",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "grunt test"
   },
@@ -13,6 +12,7 @@
     "time-grunt": "~0.2.6",
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.2",
-    "buster": "~0.7.8"
+    "buster": "~0.7.8",
+    "load-grunt-tasks": "~0.2.1"
   }
 }

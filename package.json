@@ -1,13 +1,13 @@
 {
   "name": "Kata",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "JS kata starting point",
   "private": true,
   "scripts": {
     "test": "grunt test"
   },
-  "author": "",
-  "license": "BSD-2-Clause",
+  "author": "Dominykas Blyžė",
+  "license": "MIT",
   "dependencies": {
     "grunt-buster": "~0.3.1",
     "time-grunt": "~0.2.6",

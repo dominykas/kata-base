@@ -1,9 +1,26 @@
-var kata = require('../src/kata');
+'use strict';
 
-buster.testCase("kata", {
+// Load modules
 
-	"test": function () {
-		expect(kata).toBeDefined();
-	}
+const Kata = require('../lib/kata');
+const Code = require('code');
+const Lab = require('lab');
+
+
+// Test shortcuts
+
+const lab = exports.lab = Lab.script();
+const describe = lab.describe;
+const it = lab.it;
+const expect = Code.expect;
+
+
+describe('Kata', () => {
+
+    it('is defined', (done) => {
+
+        expect(Kata).to.exist();
+        done();
+    });
 
 });

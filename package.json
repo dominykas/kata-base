@@ -1,6 +1,6 @@
 {
   "name": "Kata",
-  "version": "2017.1.0",
+  "version": "2017.2.0",
   "description": "JS kata starting point",
   "private": true,
   "scripts": {

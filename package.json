@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "lab",
-    "test-watch": "nodemon --watch lib --watch test node_modules/.bin/lab"
+    "test-watch": "nodemon --quiet --watch lib --watch test node_modules/.bin/lab"
   },
   "author": "Dominykas Blyžė",
   "license": "MIT",

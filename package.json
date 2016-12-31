@@ -4,13 +4,15 @@
   "description": "JS kata starting point",
   "private": true,
   "scripts": {
-    "test": "lab"
+    "test": "lab",
+    "test-watch": "nodemon --quiet --watch lib --watch test node_modules/.bin/lab"
   },
   "author": "Dominykas Blyžė",
   "license": "MIT",
   "devDependencies": {
     "code": "4.x",
     "eslint": "3.x",
-    "lab": "11.x"
+    "lab": "11.x",
+    "nodemon": "1.x"
   }
 }
